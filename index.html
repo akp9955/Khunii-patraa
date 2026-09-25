@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday Surprise 🎂</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffd6e7, #e5d5ff, #cdefff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: #402840;
+}
+
+.screen {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.screen.active {
+  display: flex;
+}
+
+.card {
+  width: 100%;
+  max-width: 430px;
+  padding: 30px 22px;
+  text-align: center;
+  background: rgba(255,255,255,0.92);
+  border-radius: 28px;
+  box-shadow: 0 20px 60px rgba(70,30,80,0.20);
+}
+
+h1 {
+  font-size: 30px;
+  margin: 12px 0;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 12px 0;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+.emoji {
+  font-size: 65px;
+}
+
+.small {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 12px 0;
+  border: 2px solid #e2c5e5;
+  border-radius: 15px;
+  outline: none;
+  font-size: 18px;
+  text-align: center;
+}
+
+button {
+  padding: 14px 25px;
+  border: none;
+  border-radius: 50px;
+  background: #925bb0;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.error {
+  height: 25px;
+  color: #d94d
